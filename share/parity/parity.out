@@ -1,0 +1,102 @@
+2017-03-15 13:36:13 UTC main INFO parity::run  Starting Parity/v1.6.2-beta-8a27211-20170311/x86_64-linux-gnu/rustc1.15.1
+2017-03-15 13:36:13 UTC main INFO parity::run  State DB configuration: fast
+2017-03-15 13:36:13 UTC main INFO parity::run  Operating mode: active
+2017-03-15 13:36:13 UTC main INFO ethcore::service  Configured for Foundation using Ethash engine
+2017-03-15 13:36:13 UTC hyper-client INFO miner  Updated conversion rate to Ξ1 = US$30.7 (3877772300 wei/gas)
+2017-03-15 13:36:16 UTC main INFO updater  Already fetched binary.
+2017-03-15 13:36:21 UTC IO Worker #1 INFO import  Syncing #3356410 b8bc…0dfa     0 blk/s    0 tx/s   0 Mgas/s      0+    0 Qed  #3356410    0/ 4/25 peers   143 MiB db   71 KiB chain  0 bytes queue   10 KiB sync  RPC:  0 conn,  0 req/s,   0 µs
+2017-03-15 13:36:24 UTC Verifier #1 INFO import  Imported #3356412 4c4b…9741 (22 txs, 0.66 Mgas, 58.99 ms, 4.04 KiB)
+2017-03-15 13:36:41 UTC Verifier #2 INFO import  Imported #3356413 08bc…4e04 (0 txs, 0.00 Mgas, 0.72 ms, 0.51 KiB)
+2017-03-15 13:36:47 UTC Verifier #0 INFO import  Imported #3356414 c19f…b3ba (66 txs, 1.74 Mgas, 40.90 ms, 8.26 KiB)
+2017-03-15 13:36:51 UTC IO Worker #1 INFO import     0/12/25 peers   143 MiB db    4 MiB chain  0 bytes queue   20 KiB sync  RPC:  0 conn,  0 req/s,   0 µs
+2017-03-15 13:36:59 UTC  TRACE tcp  Accepted incoming connection from 127.0.0.1:50358
+2017-03-15 13:36:59 UTC  TRACE tcp  Accepted request from peer 127.0.0.1:50358: {"id": 1, "method": "mining.subscribe", "params": []}
+2017-03-15 13:36:59 UTC  TRACE stratum  Subscription request from V4(127.0.0.1:50358)
+2017-03-15 13:36:59 UTC  TRACE stratum  pushing work for 0 workers (payload: '{ "id": 17, "method": "mining.notify", "params": ["0x", "0xcdb830973f4eb88888721fd2b607e057e91efa5672836ecb923521fc58b934bb","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x00000000000188d015cf915b1326594ff75a722a0b4ae9a9fbeb8eb579940a24","0x3336ff"] }')
+2017-03-15 13:36:59 UTC  TRACE tcp  Sent response: {"result":["0x","0xcdb830973f4eb88888721fd2b607e057e91efa5672836ecb923521fc58b934bb","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x00000000000188d015cf915b1326594ff75a722a0b4ae9a9fbeb8eb579940a24","0x3336ff"],"id":1}
+2017-03-15 13:36:59 UTC  TRACE tcp  Accepted request from peer 127.0.0.1:50358: {"id": 3, "method": "mining.authorize", "params": ["",""]}
+2017-03-15 13:36:59 UTC  TRACE stratum  New worker # registered
+2017-03-15 13:36:59 UTC  TRACE tcp  Sent response: {"result":true,"id":3}
+2017-03-15 13:37:02 UTC  TRACE tcp  Accepted incoming connection from 127.0.0.1:50412
+2017-03-15 13:37:02 UTC  TRACE tcp  Accepted request from peer 127.0.0.1:50412: {"id": 1, "method": "mining.subscribe", "params": []}
+2017-03-15 13:37:02 UTC  TRACE stratum  Subscription request from V4(127.0.0.1:50412)
+2017-03-15 13:37:02 UTC  TRACE tcp  Sent response: {"result":["0x","0xcdb830973f4eb88888721fd2b607e057e91efa5672836ecb923521fc58b934bb","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x00000000000188d015cf915b1326594ff75a722a0b4ae9a9fbeb8eb579940a24","0x3336ff"],"id":1}
+2017-03-15 13:37:02 UTC  TRACE tcp  Accepted request from peer 127.0.0.1:50412: {"id": 3, "method": "mining.authorize", "params": ["",""]}
+2017-03-15 13:37:02 UTC  TRACE stratum  New worker # registered
+2017-03-15 13:37:02 UTC  TRACE tcp  Sent response: {"result":true,"id":3}
+2017-03-15 13:37:08 UTC Verifier #1 TRACE stratum  pushing work for 2 workers (payload: '{ "id": 18, "method": "mining.notify", "params": ["0x", "0xdd2d5cd8b4c574d8fbd39c174b036455f54f7bd6ebc638a98f43f93d49470207","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x00000000000188ceeeba608f8df8e7df2a10ffefb8154203ff8e77f82bb98bee","0x333700"] }')
+2017-03-15 13:37:08 UTC Verifier #1 TRACE stratum  pusing work to 127.0.0.1:50412
+2017-03-15 13:37:08 UTC Verifier #1 TRACE stratum  pusing work to 127.0.0.1:50358
+2017-03-15 13:37:08 UTC Verifier #1 INFO import  Imported #3356415 c8f6…cd73 (0 txs, 0.00 Mgas, 0.79 ms, 0.52 KiB)
+2017-03-15 13:37:21 UTC IO Worker #3 INFO import     0/12/25 peers   143 MiB db    5 MiB chain  0 bytes queue   20 KiB sync  RPC:  0 conn,  0 req/s,   0 µs
+2017-03-15 13:37:23 UTC Verifier #2 TRACE stratum  pushing work for 2 workers (payload: '{ "id": 19, "method": "mining.notify", "params": ["0x", "0xecc77c6133c9581df4ac495a3ccd418c45f8bb1a66add3dc63910f580d6f8238","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x00000000000188cdc15e1694161dbf09ae70acf24d790b1b5cdb8bff3bde8fa4","0x333701"] }')
+2017-03-15 13:37:23 UTC Verifier #2 TRACE stratum  pusing work to 127.0.0.1:50412
+2017-03-15 13:37:23 UTC Verifier #2 TRACE stratum  pusing work to 127.0.0.1:50358
+2017-03-15 13:37:23 UTC Verifier #2 INFO import  Imported #3356416 1b35…d6f7 (31 txs, 0.68 Mgas, 12.20 ms, 4.18 KiB)
+2017-03-15 13:37:33 UTC Verifier #0 TRACE stratum  pushing work for 2 workers (payload: '{ "id": 20, "method": "mining.notify", "params": ["0x", "0x45c37e8ebaba3702b37a0eb841f6fa392e76a69c883d8ae62b02e09bb0fe4eb2","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x00000000000188cc94039afec354336ef73bfd5763ede541678e319c2181b14a","0x333702"] }')
+2017-03-15 13:37:33 UTC Verifier #0 TRACE stratum  pusing work to 127.0.0.1:50412
+2017-03-15 13:37:33 UTC Verifier #0 TRACE stratum  pusing work to 127.0.0.1:50358
+2017-03-15 13:37:33 UTC Verifier #0 INFO import  Imported #3356417 7ef7…9796 (3 txs, 0.09 Mgas, 3.59 ms, 0.91 KiB)
+2017-03-15 13:37:38 UTC Verifier #1 TRACE stratum  pushing work for 2 workers (payload: '{ "id": 21, "method": "mining.notify", "params": ["0x", "0x451e05a160e9757f1c33ec45345cdd426afd4d350274f78355ea1b2612490ef7","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x000000000001889a5386234ba2c14196fda6ab7dc1a28bfc1973bd4958789d18","0x333703"] }')
+2017-03-15 13:37:38 UTC Verifier #1 TRACE stratum  pusing work to 127.0.0.1:50412
+2017-03-15 13:37:38 UTC Verifier #1 TRACE stratum  pusing work to 127.0.0.1:50358
+2017-03-15 13:37:38 UTC Verifier #1 INFO import  Imported #3356418 396f…0e81 (18 txs, 0.66 Mgas, 14.83 ms, 2.85 KiB)
+2017-03-15 13:37:41 UTC Verifier #2 TRACE stratum  pushing work for 2 workers (payload: '{ "id": 22, "method": "mining.notify", "params": ["0x", "0x0fa6286d03521482343b767e6ffaaf1df34fd70037373fb9cce1e1286d007993","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x0000000000018868199cf4bee14a0871ba65109d89dcb754bd3c3e32a4177426","0x333704"] }')
+2017-03-15 13:37:41 UTC Verifier #2 TRACE stratum  pusing work to 127.0.0.1:50412
+2017-03-15 13:37:41 UTC Verifier #2 TRACE stratum  pusing work to 127.0.0.1:50358
+2017-03-15 13:37:41 UTC Verifier #2 INFO import  Imported #3356419 2bb1…a2e6 (3 txs, 0.30 Mgas, 2.55 ms, 1.57 KiB)
+2017-03-15 13:37:56 UTC IO Worker #3 INFO import     0/15/25 peers   143 MiB db    7 MiB chain  0 bytes queue   20 KiB sync  RPC:  0 conn,  0 req/s,   0 µs
+2017-03-15 13:38:25 UTC Verifier #0 INFO import  Imported #3356420 55a6…c9ae (0 txs, 0.00 Mgas, 0.60 ms, 0.52 KiB)
+2017-03-15 13:38:26 UTC IO Worker #3 INFO import     0/16/25 peers   143 MiB db    7 MiB chain  0 bytes queue   20 KiB sync  RPC:  0 conn,  0 req/s,   0 µs
+2017-03-15 13:38:50 UTC Verifier #1 INFO import  Imported #3356421 09da…c138 (24 txs, 1.03 Mgas, 20.50 ms, 3.58 KiB)
+2017-03-15 13:38:54 UTC Verifier #2 INFO import  Imported #3356422 9712…628e (24 txs, 0.61 Mgas, 12.71 ms, 3.61 KiB)
+2017-03-15 13:38:55 UTC Verifier #1 INFO import  Imported #3356424 d5e8…b850 (5 txs, 0.13 Mgas, 2.52 ms, 1.66 KiB) + another 1 block(s) containing 0 tx(s)
+2017-03-15 13:38:56 UTC IO Worker #1 INFO import     0/16/25 peers   143 MiB db    7 MiB chain  0 bytes queue   20 KiB sync  RPC:  0 conn,  0 req/s,   0 µs
+2017-03-15 13:39:23 UTC Verifier #0 INFO import  Imported #3356425 c855…69be (0 txs, 0.00 Mgas, 0.46 ms, 0.52 KiB) + another 1 block(s) containing 24 tx(s)
+2017-03-15 13:39:26 UTC IO Worker #2 INFO import     0/18/25 peers   143 MiB db    5 MiB chain  0 bytes queue   21 KiB sync  RPC:  0 conn,  0 req/s,   0 µs
+2017-03-15 13:39:33 UTC Verifier #1 INFO import  Imported #3356426 1627…09fe (2 txs, 0.04 Mgas, 2.96 ms, 0.74 KiB)
+2017-03-15 13:39:36 UTC Verifier #0 INFO import  Imported #3356425 58b1…e2a8 (1 txs, 0.02 Mgas, 1.97 ms, 0.63 KiB) + another 1 block(s) containing 51 tx(s)
+2017-03-15 13:39:56 UTC IO Worker #1 INFO import     0/18/25 peers   143 MiB db    7 MiB chain  0 bytes queue   21 KiB sync  RPC:  0 conn,  0 req/s,   0 µs
+2017-03-15 13:39:59 UTC Verifier #1 INFO import  Imported #3356428 d43c…a7d2 (0 txs, 0.00 Mgas, 0.42 ms, 0.52 KiB)
+2017-03-15 13:40:09 UTC Verifier #2 INFO import  Imported #3356429 0681…eec9 (0 txs, 0.00 Mgas, 0.64 ms, 1.04 KiB)
+2017-03-15 13:40:26 UTC IO Worker #2 INFO import     0/18/25 peers   143 MiB db    4 MiB chain  0 bytes queue   21 KiB sync  RPC:  0 conn,  0 req/s,   0 µs
+2017-03-15 13:40:31 UTC Verifier #0 INFO import  Imported #3356430 d979…bca8 (20 txs, 0.52 Mgas, 15.16 ms, 2.78 KiB)
+2017-03-15 13:40:44 UTC  TRACE tcp  Peer 127.0.0.1:50358: service finished
+2017-03-15 13:40:44 UTC  TRACE tcp  Accepted incoming connection from 127.0.0.1:56760
+2017-03-15 13:40:44 UTC  TRACE tcp  Accepted request from peer 127.0.0.1:56760: {"id": 1, "method": "mining.subscribe", "params": []}
+2017-03-15 13:40:44 UTC  TRACE stratum  Subscription request from V4(127.0.0.1:56760)
+2017-03-15 13:40:44 UTC  TRACE stratum  pushing work for 2 workers (payload: '{ "id": 23, "method": "mining.notify", "params": ["0x", "0x0b02fb6a3f56e9a12ba5347df3d050832e69b874566b1152e21192ba397906c5","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x00000000000188eea8b68ae0ab159efcd14b9975bc8eca8e6c5770709adeb1e8","0x33370f"] }')
+2017-03-15 13:40:44 UTC  TRACE stratum  pusing work to 127.0.0.1:50412
+2017-03-15 13:40:44 UTC  TRACE stratum  pusing work to 127.0.0.1:50358
+2017-03-15 13:40:44 UTC  TRACE stratum  Worker no longer connected: 127.0.0.1:50358
+2017-03-15 13:40:44 UTC  TRACE tcp  Sent response: {"result":["0x","0x0b02fb6a3f56e9a12ba5347df3d050832e69b874566b1152e21192ba397906c5","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x00000000000188eea8b68ae0ab159efcd14b9975bc8eca8e6c5770709adeb1e8","0x33370f"],"id":1}
+2017-03-15 13:40:44 UTC  TRACE tcp  Peer 127.0.0.1:50412: service finished
+2017-03-15 13:40:44 UTC  TRACE tcp  Accepted incoming connection from 127.0.0.1:56762
+2017-03-15 13:40:44 UTC  TRACE tcp  Accepted request from peer 127.0.0.1:56762: {"id": 1, "method": "mining.subscribe", "params": []}
+2017-03-15 13:40:44 UTC  TRACE stratum  Subscription request from V4(127.0.0.1:56762)
+2017-03-15 13:40:44 UTC  TRACE tcp  Sent response: {"result":["0x","0x0b02fb6a3f56e9a12ba5347df3d050832e69b874566b1152e21192ba397906c5","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x00000000000188eea8b68ae0ab159efcd14b9975bc8eca8e6c5770709adeb1e8","0x33370f"],"id":1}
+2017-03-15 13:40:44 UTC  TRACE tcp  Accepted request from peer 127.0.0.1:56762: {"id": 3, "method": "mining.authorize", "params": ["",""]}
+2017-03-15 13:40:44 UTC  TRACE stratum  New worker # registered
+2017-03-15 13:40:44 UTC  TRACE tcp  Sent response: {"result":true,"id":3}
+2017-03-15 13:40:44 UTC  TRACE tcp  Accepted request from peer 127.0.0.1:56760: {"id": 3, "method": "mining.authorize", "params": ["",""]}
+2017-03-15 13:40:44 UTC  TRACE stratum  New worker # registered
+2017-03-15 13:40:44 UTC  TRACE tcp  Sent response: {"result":true,"id":3}
+2017-03-15 13:40:47 UTC  TRACE tcp  Peer 127.0.0.1:56762: service finished
+2017-03-15 13:40:47 UTC  TRACE tcp  Accepted incoming connection from 127.0.0.1:56846
+2017-03-15 13:40:47 UTC  TRACE tcp  Accepted request from peer 127.0.0.1:56846: {"id": 1, "method": "mining.subscribe", "params": []}
+2017-03-15 13:40:47 UTC  TRACE stratum  Subscription request from V4(127.0.0.1:56846)
+2017-03-15 13:40:47 UTC  TRACE tcp  Sent response: {"result":["0x","0x0b02fb6a3f56e9a12ba5347df3d050832e69b874566b1152e21192ba397906c5","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x00000000000188eea8b68ae0ab159efcd14b9975bc8eca8e6c5770709adeb1e8","0x33370f"],"id":1}
+2017-03-15 13:40:47 UTC  TRACE tcp  Accepted request from peer 127.0.0.1:56846: {"id": 3, "method": "mining.authorize", "params": ["",""]}
+2017-03-15 13:40:47 UTC  TRACE stratum  New worker # registered
+2017-03-15 13:40:47 UTC  TRACE tcp  Sent response: {"result":true,"id":3}
+2017-03-15 13:40:55 UTC Verifier #2 TRACE stratum  pushing work for 4 workers (payload: '{ "id": 24, "method": "mining.notify", "params": ["0x", "0x548b74c2290e6b6d06e334b847162380c6d34585ccfa9c602e733f88b3386a50","0x7d391100fb2e4891de834b7410394a01c0bd5b480c710467c68fd373613480f0","0x00000000000188ed752a0c84114480f1a341445eb294dcf7fb15ea4db9dad902","0x333710"] }')
+2017-03-15 13:40:55 UTC Verifier #2 TRACE stratum  pusing work to 127.0.0.1:56762
+2017-03-15 13:40:55 UTC Verifier #2 TRACE stratum  Worker no longer connected: 127.0.0.1:56762
+2017-03-15 13:40:55 UTC Verifier #2 TRACE stratum  pusing work to 127.0.0.1:50412
+2017-03-15 13:40:55 UTC Verifier #2 TRACE stratum  Worker no longer connected: 127.0.0.1:50412
+2017-03-15 13:40:55 UTC Verifier #2 TRACE stratum  pusing work to 127.0.0.1:56760
+2017-03-15 13:40:55 UTC Verifier #2 TRACE stratum  pusing work to 127.0.0.1:56846
+2017-03-15 13:40:55 UTC Verifier #2 INFO import  Imported #3356431 74fc…5d3b (1 txs, 0.02 Mgas, 1.64 ms, 0.63 KiB) + another 1 block(s) containing 2 tx(s)
+2017-03-15 13:40:56 UTC IO Worker #0 INFO import     0/17/25 peers   143 MiB db    4 MiB chain  0 bytes queue   21 KiB sync  RPC:  0 conn,  0 req/s,   0 µs
+2017-03-15 13:41:05 UTC  TRACE tcp  Peer 127.0.0.1:56760: service finished
+2017-03-15 13:41:10 UTC  TRACE tcp  Peer 127.0.0.1:56846: service finished
